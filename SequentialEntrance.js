@@ -5,6 +5,7 @@ export default {
     let delay = props.delay || 250;
     let tag = props.tag || "span";
     let animation = props.animation || "entranceFromRight";
+    // let customClass = props.customClass; // first variant
 
     if(props.fromTop != undefined) animation = 'entranceFromTop'
     if(props.fromRight != undefined) animation = 'entranceFromRight'
@@ -21,6 +22,18 @@ export default {
         child.data.staticClass += " " + animation;
       });
     }
-    return createElement(tag,children);
+
+    //// first variant
+    // let classObj = {};
+
+    // if (customClass) {
+    //   classObj.class = [];
+    //   classObj.class.push(customClass);
+    // }
+
+    // return createElement(tag, classObj, children);
+
+    //// second variant
+    return createElement(tag,{class: props.customClass},children);
   }
 };
