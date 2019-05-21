@@ -1,14 +1,14 @@
 {
-  "name": "vue-sequential-entrance",
-  "version": "1.1.2",
-  "description": "A vuejs plugin for creating sequential animation entrances of a group of elements",
+  "name": "@iit/vue-sequential-entrance-transpiled",
+  "version": "1.2.0",
+  "description": "Forked transpiled version of vuejs plugin for creating sequential animation entrances of a group of elements",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deivthings/vue-sequential-entrance.git"
+    "url": "git+https://github.com/wowxoxo/vue-sequential-entrance.git"
   },
   "keywords": [
     "plugin",
@@ -17,10 +17,10 @@
     "entrances",
     "sequential"
   ],
-  "author": "David Alvarez @deivthings",
+  "author": "wowxoxo @wowxoxo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/deivthings/vue-sequential-entrance/issues"
+    "url": "https://github.com/wowxoxo/vue-sequential-entrance/issues"
   },
-  "homepage": "https://github.com/deivthings/vue-sequential-entrance#readme"
+  "homepage": "https://github.com/wowxoxo/vue-sequential-entrance#readme"
 }

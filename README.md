@@ -1,4 +1,8 @@
-# vue-sequential-entrance
+# vue-sequential-entrance (transpiled version)
+## Attention!
+This is forked project. Original is [here](https://github.com/wowxoxo/vue-sequential-entrance) by [Alvarez Garcia](https://github.com/deivthings). I made this version cause original isn't working correctly in IE11 for me when i build it with Vue CLI.
+
+## Repository description from original project:
 Vuejs Plugin for creating epic sequential animation entrances with a list of elements.
 Zero effort.
 Really lightweight
@@ -51,7 +55,7 @@ By default, the sequence animation have an interval of 250 milliseconds. If you 
 ```
 
 ### animation
-If you prefer don't use the built in animations (fromTop,fromRight,fromLeft,fromBottom) and use your custom css animation, you can easily using 'animation' props. Simply, put the class name of your animation and that's it.  
+If you prefer don't use the built in animations (fromTop,fromRight,fromLeft,fromBottom) and use your custom css animation, you can easily using 'animation' props. Simply, put the class name of your animation and that's it.
 ```html
   <sequential-entrance animation="myCustomAnimationClassName"> [...] </sequential-entrance>
 ```
