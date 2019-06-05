@@ -1,6 +1,6 @@
 {
   "name": "@iit/vue-sequential-entrance-transpiled",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Forked transpiled version of vuejs plugin for creating sequential animation entrances of a group of elements",
   "main": "index.js",
   "scripts": {
